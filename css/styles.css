@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #fff;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right, #5684AE 50%, #E17FBA 50%);
+}
+
+.background-black {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(37, 35, 35, .7);   
+}
+
+.center-column {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+section {
+    justify-content: flex-start;
+    height: 80%;
+    width: 50%;
+    gap: 2rem;
+    padding-top: 10rem;
+    font-size: 1.3rem;
+}
+section h1 {
+    text-transform: uppercase;
+}
+section div {
+    display: flex;
+}
+section button {
+    padding: .094rem .6rem;
+    margin-left: .3rem;
+    font-size: .9rem;  
+    text-transform: uppercase;  
+}
+
+.gestation-week {
+    padding: .8rem;
+    background-color: rgba(37, 35, 35, .7);
+    border-radius: 3px;
+    user-select: none;
+    display: none;
+}
